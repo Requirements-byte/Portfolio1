@@ -1,0 +1,36 @@
+/* RESET */
+*, *::before, *::after{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+:root{
+  --cream:#F4F1EA;
+  --off-white:#FAF8F3;
+  --stone:#C8C0B0;
+  --concrete:#8A8070;
+  --charcoal:#2C2820;
+  --ink:#1A1612;
+  --rust:#8B4A2A;
+  --blueprint:#1D3A5F;
+
+  --serif:'Cormorant Garamond', Georgia, serif;
+  --sans:'Barlow', sans-serif;
+  --condensed:'Barlow Condensed', sans-serif;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background-color:var(--off-white);
+  color:var(--charcoal);
+  font-family:var(--sans);
+  font-weight:300;
+  line-height:1.6;
+  overflow-x:hidden;
+}
+
+/* paste ALL remaining CSS below */
